@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mbm",
+  "name": "Multiblock mechanisms",
+  "description": "A mod about research, progression and creation of all sorts of mechanisms.",
+  "version": "build 1",
+  "mcversion": "1.8.X",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["wjg999"],
+  "credits": "The Forge and FML guys, for making this example, Pahimar for his lets mod reboot, amadornes for re-inspiring me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
