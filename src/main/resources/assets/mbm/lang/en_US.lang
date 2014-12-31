@@ -1,0 +1,5 @@
+#Item Localizations
+
+item.mbm:basicTestItem.name=A basic item
+tile.mbm:basicTestBlock.name=A basic block
+itemGroup.testtab=A basic creative tab
