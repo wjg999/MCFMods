@@ -1,0 +1,10 @@
+{
+    "variants": {
+		//"normal":{"model": "mbm:table"},
+        "facing=north": { "model": "mbm:table", "y": 180 },
+        "facing=east":  { "model": "mbm:table", "y": 270 },
+        "facing=south": { "model": "mbm:table" },
+        "facing=west":  { "model": "mbm:table", "y": 90 }
+        
+    }
+}

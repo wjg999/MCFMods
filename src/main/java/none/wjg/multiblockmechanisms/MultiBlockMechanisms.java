@@ -3,10 +3,12 @@ package none.wjg.multiblockmechanisms;
 import none.wjg.multiblockmechanisms.handler.ConfigurationHandler;
 import none.wjg.multiblockmechanisms.init.ModBlocks;
 import none.wjg.multiblockmechanisms.init.ModItems;
+import none.wjg.multiblockmechanisms.init.ModRecipes;
 import none.wjg.multiblockmechanisms.proxy.IProxy;
 import none.wjg.multiblockmechanisms.reference.Reference;
 import none.wjg.multiblockmechanisms.utility.LogHelper;
 import net.minecraft.client.Minecraft;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
@@ -27,13 +29,16 @@ public class MultiBlockMechanisms
     @Mod.Instance(Reference.MODID)
     public static MultiBlockMechanisms instance;
     
+
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
     	ConfigurationHandler.Init(event.getSuggestedConfigurationFile());
     	FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+    	ModItems.PreInit();
+    	ModBlocks.PreInit();
     	
-    	//ModItems.Init();
     	LogHelper.info("Pre Init finished for MBM");
     }
     @Mod.EventHandler
@@ -41,6 +46,7 @@ public class MultiBlockMechanisms
     {
     	ModItems.Init();
     	ModBlocks.Init();
+    	ModRecipes.Init();
     	LogHelper.info("Init finished for MBM");
     	
     }

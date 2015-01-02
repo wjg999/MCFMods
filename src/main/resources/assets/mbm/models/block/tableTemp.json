@@ -1,0 +1,171 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "elements": [
+        {
+            "from": [0,14,0],
+            "to": [16,16,32],
+            "faces": {
+                "up": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "down": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "west": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "east": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "north": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "south": {
+                    "texture": "minecraft:blocks/planks_oak"
+                }
+            }
+        },
+        {
+            "from": [1,0,2],
+            "to": [3,13,4],
+            "faces": {
+                "down": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "west": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "east": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "north": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "south": {
+                    "texture": "minecraft:blocks/planks_oak"
+                }
+            }
+        },
+        {
+            "from": [13,0,2],
+            "to": [15,13,4],
+            "faces": {
+                "down": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "west": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "east": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "north": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "south": {
+                    "texture": "minecraft:blocks/planks_oak"
+                }
+            }
+        },
+        {
+            "from": [13,0,28],
+            "to": [15,13,30],
+            "faces": {
+                "down": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "west": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "east": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "north": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "south": {
+                    "texture": "minecraft:blocks/planks_oak"
+                }
+            }
+        },
+        {
+            "from": [1,0,28],
+            "to": [3,13,30],
+            "faces": {
+                "down": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "west": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "east": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "north": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "south": {
+                    "texture": "minecraft:blocks/planks_oak"
+                }
+            }
+        },
+        {
+            "from": [3,9,2],
+            "to": [13,11,4],
+            "faces": {
+                "up": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "down": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "north": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "south": {
+                    "texture": "minecraft:blocks/planks_oak"
+                }
+            }
+        },
+        {
+            "from": [3,9,28],
+            "to": [13,11,30],
+            "faces": {
+                "up": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "down": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "north": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "south": {
+                    "texture": "minecraft:blocks/planks_oak"
+                }
+            }
+        },
+        {
+            "from": [1,13,1],
+            "to": [15,14,31],
+            "faces": {
+                "down": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "west": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "east": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "north": {
+                    "texture": "minecraft:blocks/planks_oak"
+                },
+                "south": {
+                    "texture": "minecraft:blocks/planks_oak"
+                }
+            }
+        }
+    ]
+}

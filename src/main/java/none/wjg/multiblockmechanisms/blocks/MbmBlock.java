@@ -2,6 +2,7 @@ package none.wjg.multiblockmechanisms.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.BlockState;
 import none.wjg.multiblockmechanisms.reference.Reference;
 
 public class MbmBlock extends Block {
@@ -24,6 +25,11 @@ public class MbmBlock extends Block {
 	protected String getUnwrappedUnlocalizedName(String unlocalizedName){
 		return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
 	}
+    @Override
+    public BlockState createBlockState()
+    {
+        return super.createBlockState();
+    } 
 }
 
 

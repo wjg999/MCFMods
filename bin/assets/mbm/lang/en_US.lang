@@ -1,5 +1,9 @@
 #Item Localizations
 
 item.mbm:basicTestItem.name=A basic item
+item.mbm:hammer.name=Hammer
+item.mbm:nail.name=Nail
 tile.mbm:basicTestBlock.name=A basic block
-itemGroup.testtab=A basic creative tab
+tile.mbm:placeHolder.name=You should not have this block.
+itemGroup.testTab=A basic creative tab
+itemGroup.mbm=MultiBlock Mechanisms

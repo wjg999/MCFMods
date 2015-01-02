@@ -8,7 +8,7 @@ public class Reference {
     public static final String SERVERPROXY = "none.wjg.multiblockmechanisms.proxy.ServerProxy";
     public static final String GUIFACTORY_CLASS="none.wjg.multiblockmechanisms.client.gui.GuiFactory";
     public static final String TESTTAB_NAME ="testTab";
-    
+    public static final String MBMTAB_NAME ="mbm";
     
     
 }
