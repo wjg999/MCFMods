@@ -1,5 +1,9 @@
 package none.wjg.multiblockmechanisms.item;
 
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
+import none.wjg.multiblockmechanisms.ExtendedPlayer;
 import none.wjg.multiblockmechanisms.MultiBlockMechanisms;
 import none.wjg.multiblockmechanisms.reference.ModCreativeTabs;
 import none.wjg.multiblockmechanisms.reference.ItemNames;
@@ -15,4 +19,14 @@ public class BasicTestItem extends MbmItem {
 		this.setCreativeTab(ModCreativeTabs.TEST_TAB);
 		
 	}
+	@Override
+	public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer player)
+    	{
+		if (!world.isRemote)
+		{
+			ExtendedPlayer props = ExtendedPlayer.get(player);
+			System.out.println(props.getUnderstanding());
+		}
+		return itemstack;
+    }
 }

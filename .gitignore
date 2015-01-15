@@ -67,3 +67,6 @@ eclipse/servers.dat
 eclipse/usercache.json
 eclipse/usernamecache.json
 eclipse/whitelist.json
+bin/assets/mbm/models/block/tableSide.bdc3D
+*.bdc3D
+src/main/resources/assets/mbm/textures/blocks/table1.png

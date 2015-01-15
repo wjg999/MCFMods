@@ -19,7 +19,7 @@ import none.wjg.multiblockmechanisms.utility.LogHelper;
 //Failed attempt
 //I use this class in order to make a dynamic block that mimics everything from the parent block
 public class BlockPositionHolder extends MbmBlock {
-	private MbmBlock parent = ModBlocks.table;
+	private Block parent = ModBlocks.table;
 	public BlockPositionHolder(){
 		super();
 	}

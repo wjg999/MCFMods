@@ -13,10 +13,9 @@ public class UtilityFunctions {
         {
             if (playerIn.inventory.mainInventory[i] != null && playerIn.inventory.mainInventory[i].isItemEqual(stack))
             {
-
             	if(playerIn.inventory.mainInventory[i].stackSize>=stack.stackSize-itemsFound)
             	{
-            		LogHelper.info("enough");
+            		//LogHelper.info("enough");
             		return true;
             	}
             	else{

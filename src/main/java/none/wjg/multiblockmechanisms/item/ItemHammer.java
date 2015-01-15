@@ -13,6 +13,7 @@ import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.Vec3i;
 import net.minecraft.world.World;
+import none.wjg.multiblockmechanisms.tileentities.TETable;
 import none.wjg.multiblockmechanisms.MultiBlockMechanisms;
 import none.wjg.multiblockmechanisms.init.ModBlocks;
 import none.wjg.multiblockmechanisms.init.ModItems;
@@ -62,13 +63,14 @@ public class ItemHammer extends MbmItemTool {
 			}
 			if(meta!=-1){
 			LogHelper.info("Fired hammer rightclick");
-			
 			playerIn.inventory.consumeInventoryItem(ModItems.nail);
 			playerIn.inventory.consumeInventoryItem(ModItems.nail);
 			playerIn.inventory.consumeInventoryItem(ModItems.nail);
 			playerIn.inventory.consumeInventoryItem(ModItems.nail);
 			worldIn.setBlockState(pos, ModBlocks.table.getStateFromMeta(meta));
 			worldIn.setBlockState(pos.add(posHold), ModBlocks.table.getStateFromMeta(otherMeta));
+			TETable table = (TETable) (worldIn.getTileEntity(pos));
+			table.connect();
 			}
 		}
 		return false;

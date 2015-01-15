@@ -1,5 +1,8 @@
 {"__comment":"3D Mesh designed with BDcraft Cubik - Version LITE 0.71 Beta",
-"textures":{"all": "mbm:blocks/table2"},
+"textures":{
+	"all": "mbm:blocks/table2",
+	"particle" : "mbm:blocks/table2"
+	},
 "ambientocclusion":true,
 "elements":[{"from":[1,0,2],
 "to":[3,13,4],

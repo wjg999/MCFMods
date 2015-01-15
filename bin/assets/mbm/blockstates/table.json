@@ -1,10 +1,14 @@
 {
     "variants": {
 		//"normal":{"model": "mbm:table"},
-        "facing=north": { "model": "mbm:table", "y": 180 },
-        "facing=east":  { "model": "mbm:table", "y": 270 },
-        "facing=south": { "model": "mbm:table" },
-        "facing=west":  { "model": "mbm:table", "y": 90 }
+        "facing=north,haspaper=false": { "model": "mbm:table", "y": 180 },
+        "facing=east,haspaper=false":  { "model": "mbm:table", "y": 270 },
+        "facing=south,haspaper=false": { "model": "mbm:table" },
+        "facing=west,haspaper=false":  { "model": "mbm:table", "y": 90 },
+		"facing=north,haspaper=true": { "model": "mbm:table2", "y": 180 },
+        "facing=east,haspaper=true":  { "model": "mbm:table2", "y": 270 },
+        "facing=south,haspaper=true": { "model": "mbm:table2" },
+        "facing=west,haspaper=true":  { "model": "mbm:table2", "y": 90 }
         
     }
 }
